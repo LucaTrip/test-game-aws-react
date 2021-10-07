@@ -1,0 +1,28 @@
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.list-container {
+  background-color: whitesmoke;
+  margin-top: 50px;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.list-group {
+  border-radius: 10px;
+}
+
+.no-users-yet {
+  text-align: center;
+}

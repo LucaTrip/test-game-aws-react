@@ -1,0 +1,20 @@
+.button-container {
+}
+
+.button-container button {
+  background-color: #ea4c88;
+  color: white;
+  border-radius: 0.25rem;
+  border: unset;
+  padding: 1rem;
+  background-color: #ea4c88 !important;
+  color: #eee !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button-container button img {
+  height: 30px;
+  filter: invert(1);
+  margin-right: 10px;
+}

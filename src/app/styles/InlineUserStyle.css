@@ -1,0 +1,53 @@
+.inline-user-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.fake-rounded-image {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fake-rounded-image.sm {
+  width: 50px;
+  height: 50px;
+}
+
+.fake-rounded-image .fake-img {
+  width: 60%;
+  height: 60%;
+}
+
+.user-container {
+  margin-left: 20px;
+}
+
+.title {
+  margin: 0;
+}
+
+.arrow-container {
+  width: 25px;
+}
